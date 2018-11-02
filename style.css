@@ -1,0 +1,540 @@
+/*
+Theme Name: Don't Be Stingy (Bee Happy!)
+Theme URI: http://rice.hugs.nu
+Description: Insanely grey with yellow accents! One columned, widgetized footer, a lot of curves, fancy stuff like that. Also, all custom fonts.
+Author: Alice
+Author URI: http://rice.hugs.nu
+
+*/
+
+@font-face {
+	font-family: dandies;
+	src: url('dandies.ttf');
+}
+
+@font-face {
+	font-family: tuffs;
+	src: url('tuffs.ttf');
+}
+
+@font-face {
+	font-family: youare;
+	src: url('youare.ttf');
+}
+
+
+body {
+background-color : #CCCCCC;
+padding : 0;
+margin : 0;
+font : normal 90% tuffs, sans-serif;
+line-height : 170%;
+color : #000;
+}
+
+#header {
+background-image:url('banner.png');
+background-repeat:no-repeat;
+width:800px;
+margin:0 auto 0 auto;
+height:270px;
+padding:0;
+}
+
+#header:hover{
+background-image:url('hover.png');
+background-repeat:no-repeat;
+}
+
+#container {
+width:800px;
+margin:0 auto 0 auto;
+background-color:#3F3F3F;
+color:#e0e0e0;
+}
+
+#content {
+width : 95%;
+margin:0 auto 0 auto;
+}
+
+#entry{
+background-color:#E0E0E0;
+color: #000;
+border-radius:30px;
+padding:20px;
+margin: 0 0 10px 0;
+}
+
+#entry a:hover, #entry a:active, .box a:hover, .box a:active, #footer a:hover, #footer a:active{
+color:#000;
+}
+
+#sidebar {
+display:inline;
+}
+
+#nav{
+position:fixed;
+top:0;
+width:100%;
+padding:0;
+margin:0;
+}
+
+ul#navigation {
+-webkit-padding-start: 0 !important;
+-moz-padding-start: 0 !important;
+padding-start: 0 !important;
+padding: 0px;
+text-align: center;
+margin: 0 auto 0 auto;
+}
+
+#navigation li {
+display: inline;
+padding:0;
+margin:0 10px 0 10px;
+}
+
+#navigation li a {
+list-style-type : none;
+list-style : none;
+width: auto;
+margin: 0;
+text-decoration: none;
+font-family: dandies;
+font-size: 310%;
+padding:10px 20px 0 20px;
+text-transform: lowercase;
+color: #FEFED9;
+font-weight : normal;
+display: inline;
+background-color:#222;
+top:10px;
+position:relative;
+opacity:0.8;
+border-bottom-left-radius:15px;
+border-bottom-right-radius:15px;
+}
+
+#navigation li a:hover, #navigation li a:active {
+background-color:#222;
+top:20px;
+position:relative;
+color:#F1F18C;
+opacity:1;
+}
+
+#footer{
+background-image:url('foot.png');
+background-repeat:no-repeat;
+width:800px;
+background-color:#ccc;
+padding:30px 0 10px 0;
+margin:0 auto 0 auto;
+}
+
+#footer img{
+opacity:0.9;
+}
+
+#footer img:hover{
+opacity:1;
+}
+
+#footer-sidebar{
+margin:25px 0 0 0;
+}
+
+a.foot:link, a.foot:visited{
+color:#fff;
+}
+
+h1 {
+font : normal 210% youare;
+color: #E0E0E0;
+text-align : center;
+padding:5px 0 0px 0;
+letter-spacing:2px;
+margin:0;
+clear:both;
+}
+
+h6 {
+font : normal 210% youare;
+color: #E0E0E0;
+text-align : center;
+padding:5px 0 0px 0;
+letter-spacing:2px;
+margin:0;
+clear:both;
+}
+
+a.blog:link, a.blog:visited {
+font:normal 100% youare;
+color: #E0E0E0;
+}
+
+a.blog:hover, a.blog:active{
+color:#F1F18C;
+}
+
+#bee{
+background-image:url('beeee.png');
+background-repeat:no-repeat;
+position:fixed;
+bottom:0px;
+left:0;
+width:100px;
+height:151px;
+}
+
+#bee:hover, #bee:active{
+background-image:url('beee.png');
+background-repeat:no-repeat;
+}
+
+h2 {
+font : normal 200%/100% youare;
+color: #3e3e3e;
+text-align : center;
+margin:15px 0 10px 0;
+}
+
+h3 {
+font : normal 90% tuffs, sans-serif;
+text-align : center;
+margin : -17px 0 5px 0;
+padding:0;
+color:#E0E0E0;
+}
+
+h4{
+font: normal 250% dandies;
+letter-spacing:2px;
+margin:20px 0 5px 0;
+}
+
+h5{
+color:#e0e0e0;
+margin:5px 0 5px 0;
+padding:0;
+font: normal 200% dandies;
+}
+
+h5 a:link, h5 a:visited{
+color:#e0e0e0;
+}
+
+h5 a:hover, h5 a:active{
+color:#f1f18c;
+}
+
+.box{
+padding:10px;
+background-color:  #e0e0e0;
+border-radius:20px;
+height:200px;
+color: #000;
+}
+
+.box a.external_icon {
+background: none;
+}
+
+.more {
+font : normal 200% youare, sans-serif;
+padding : 0;
+text-transform:lowercase;
+text-align : right;
+border-bottom:0;
+text-decoration:none;
+}
+
+.center {
+text-align : center;
+margin : 0 auto 0 auto;
+}
+
+a:link, a:visited {
+color:#777;
+text-decoration:none;
+}
+
+a:hover, a:active {
+color:#aaa;
+}
+
+a.net:link, a.net:visited {
+border : 0;
+opacity: 0.7;
+}
+
+a.net:hover, a.net:active {
+border : 0;
+opacity:1;
+}
+
+
+b, strong {
+letter-spacing:1px;
+}
+
+i, em {
+}
+
+s, strike, del {
+color:#fefed9;
+}
+
+u, underline {
+text-decoration : none;
+color:#555;
+border-bottom : 2px dotted #555;
+}
+
+code {
+font : normal 100% courier new;
+}
+
+blockquote {
+padding : 10px;
+margin : 20px;
+background-color:#ccc;
+border-radius:20px;
+text-align:center;
+}
+
+ul {
+list-style-type : circle;
+margin:2px;
+}
+
+ul.xoxo.blogroll{
+display:block;
+list-style-type : none;
+font: normal 100% tuffs;
+margin:0;
+padding:0;
+}
+
+::selection {
+color:#333;
+background-color:#fff;
+}
+
+::-moz-selection {
+color:#333;
+background-color:#fff;
+}
+
+.thecomment {
+margin : 10px 0 15px 0;
+}
+
+textarea, select, textInput, input {
+border: none;
+color : #e0e0e0;
+background-color: #999;
+padding : 10px;
+font: normal 100% tuffs;
+border-radius:15px;
+}
+
+.comment-meta {
+font: normal 100% tuffs;
+}
+
+.commentlist{
+-webkit-padding-start: 10px;
+padding-start: 10px;
+-moz-padding-start: 10px;
+}
+
+.comment {
+list-style-type: none;
+}
+
+.comment-author {
+float: left;
+}
+
+.author {
+font: normal 230% dandies;
+}
+
+.author:first-letter{
+text-transform:uppercase;
+}
+
+.editComment, .editableComment, .textComment {
+display : inline;
+}
+
+.comment-childs {
+margin : 5px 2px 2px 10px;
+}
+
+#newcomment {
+background-color:#ccc;
+color:#000;
+border-radius:20px;
+width : 95%;
+}
+
+#newcommentsubmit {
+font-family: tuffs;
+background-color:#ccc;
+color:#000;
+border-radius:20px;
+}
+
+.adminreplycomment {
+background-color:#ccc;
+color:#000;
+border-radius:20px;
+width: 90%;
+margin: 4px;
+padding: 4px;
+}
+
+#comment {
+font-family: tuffs;
+width:80%;
+}
+
+.c{
+background-color:#e0e0e0;
+color:#000;
+border-radius:30px;
+padding:10px;
+margin:20px 0 20px 0;
+}
+
+.c a:hover, .c a:active{
+color:#000;
+}
+
+.footnotes {
+font-size : 85%;
+padding : 10px 0 10px 0;
+}
+
+.footnotes ol {
+margin : 0 0 0 3%;
+padding : 0;
+}
+
+sup.footnote a {
+text-decoration : none;
+font-size : 105%;
+font-weight : bold;
+}
+
+.footnotereverse a {
+padding : 0 0 0 5px;
+text-decoration : none;
+}
+
+.left {
+text-align : left;
+float : left;
+width : auto;
+}
+
+.right {
+text-align : right;
+float : right;
+width : auto;
+}
+
+img{
+border-radius:10px;
+opacity:1;
+}
+
+img:hover{
+opacity:0.8;
+}
+
+acronym {
+border-bottom : 1px dashed #222;
+}
+
+.dr {
+font : normal 200% dandies;
+float:right;
+text-transform:lowercase;
+margin: 0 0 0 0;
+padding:0;
+}
+
+.drr {
+margin : 0 0 0 0;
+padding: 0;
+float:left;
+text-transform:lowercase;
+font : normal 200% dandies;
+}
+
+.upp {
+font : normal 120% youare;
+float:left;
+margin: 0 0 0 0;
+padding:0;
+color: #FEFED9;
+}
+
+.up {
+margin : 0 0 0 0;
+padding: 0;
+float:right;
+font : normal 120% youare;
+color: #FEFED9;
+}
+
+.up a:link, .up a:visited, .upp a:link, .upp a:visited{
+color: #FEFED9;
+}
+
+.up a:hover, .up a:active, .upp a:hover, .upp a:active, .up:hover, .upp:hover{
+color:#F1F18C;
+}
+
+hr {
+color : #222;
+background-color : #222;
+border : 1px dotted #222;
+width : 75%;
+text-align : center;
+}
+
+#footer-sidebar {
+display:block;
+height: 250px;
+}
+
+#footer-sidebar1 {
+float: left;
+width: 30%;
+margin-left:2.5%;
+margin-right:0;
+height:100%;
+}
+
+#footer-sidebar2 {
+float: left;
+width: 30%;
+margin-left:2.5%;
+margin-right:2.5%;
+height:100%;
+}
+
+#footer-sidebar3 {
+float: right;
+width: 30%;
+margin-left:0;
+margin-right:2.5%;
+height:100%;
+}
